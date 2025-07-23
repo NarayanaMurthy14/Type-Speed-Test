@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Type Speed Test Competition</title>
+        <link rel="stylesheet" href="../css/reg.css"/>
+    </head>
+    <body>
+        <h3 style="text-align: center;font-family: Arial, sans-serif">Registration</h3>
+        <div class="reg">
+            <form action="../api/register.php" method="POST">
+                <label name="name">Name</label><br>
+                <input id="form" type="text" name="name" placeholder="name" required><br><br>
+                <label name="email">Email</label><br>
+                <input id="form" type="email" name="email" placeholder="name@gmail.com" required><br><br>
+                <label name="password">Password</label><br>
+                <input id="form" type="password" name="password" placeholder="password" required><br><br>
+                <label name="password">Confirm Password</label><br>
+                <input id="form" type="password" name="cpassword" placeholder="password" required><br><br>
+                <button id="btn">Register</button><br><br>
+                Already have an account<a href="../index.html"> Login here</a>
+            </form>
+        </div>
+    </body>
+</html>
